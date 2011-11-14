@@ -3,3 +3,13 @@
     username: accountName
     password: password
     action: /up.asp
+- site:
+    url: http://battle1.x59.cn/
+    action: /wow.asp
+    username: accountName
+    password: password
+- site:
+    url: http://www.blizzararmory.com/login/
+    username: accountName
+    password: password
+    action: account.asp
