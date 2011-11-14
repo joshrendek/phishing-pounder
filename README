@@ -1,3 +1,9 @@
+== Install
+Phishing Pounder uses Faker to generate emails
+
+git clone git://github.com/bluescripts/phishing-pounder.git
+cd phishing-pounder; bundle install
+
 == Usage
 Edit the sites you want to hit in pounder.yml
 ruby pounder.rb 
