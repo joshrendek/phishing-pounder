@@ -1,1 +1,9 @@
-No liability for anything you do with this script, share it, copy it, do whatever with it
+== Usage
+Edit the sites you want to hit in pounder.yml
+ruby pounder.rb 
+
+== 
+No liability for anything you do with this script
+
+== License
+share it, copy it, do whatever with it
