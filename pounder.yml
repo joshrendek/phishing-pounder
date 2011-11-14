@@ -1,0 +1,5 @@
+- site:
+    url: http://worldofwarcraft.com.accountownership-confirmation.net/
+    username: accountName
+    password: password
+    action: /up.asp
