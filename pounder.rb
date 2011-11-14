@@ -21,7 +21,7 @@ config.each do |site|
   (1..50).each do 
     threads << Thread.new() { 
       http = Net::HTTP.new(uri.host, uri.port)
-      username = Faker::Internet.free_email
+      username = Faker::Internet.email
       pass = newpass
       request.set_form_data({s['username'] => pass, s['password'] => pass})
       response = http.request(request)
